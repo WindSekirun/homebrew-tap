@@ -25,5 +25,12 @@ class AdbDevicesPrometheusExporter < Formula
         end
       end
     end
+
+    service do
+      run "#{opt_bin}/adb-devices-prometheus-exporter"
+      environment_variables PATH: std_service_path_env
+      keep_alive true
+      process_type :interactive
+    end
   end
   
