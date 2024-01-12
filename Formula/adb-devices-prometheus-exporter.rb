@@ -4,7 +4,7 @@
 class AdbDevicesPrometheusExporter < Formula
   desc "Prometheus exporter for expose 'adb devices' on host"
   homepage "https://github.com/WindSekirun/adb-devices-prometheus-exporter"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
@@ -17,8 +17,8 @@ class AdbDevicesPrometheusExporter < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/WindSekirun/adb-devices-prometheus-exporter/releases/download/v0.2.1/adb-devices-prometheus-exporter-Darwin-aarch64.tar.gz"
-      sha256 "040bfba481c1deae5c23e44288a6dce55cbbcfd910aa3338628910c1e17c728b"
+      url "https://github.com/WindSekirun/adb-devices-prometheus-exporter/releases/download/v0.2.2/adb-devices-prometheus-exporter-Darwin-aarch64.tar.gz"
+      sha256 "a4ffd090852c952f3a719e910b7fc111ca7b56c507f3923fa1086e32ff0f4118"
 
       def install
         bin.install "adb-devices-prometheus-exporter"
