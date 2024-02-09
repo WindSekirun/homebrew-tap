@@ -10,17 +10,17 @@
   "license": "MIT",
   "homepage": "https://github.com/WindSekirun/adb-devices-prometheus-exporter",
   "versions": {
-    "stable": "0.2.1",
+    "stable": "0.2.3",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/WindSekirun/adb-devices-prometheus-exporter/releases/download/v0.2.1/adb-devices-prometheus-exporter-Darwin-aarch64.tar.gz",
+      "url": "https://github.com/WindSekirun/adb-devices-prometheus-exporter/releases/download/v0.2.3/adb-devices-prometheus-exporter-Darwin-aarch64.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "040bfba481c1deae5c23e44288a6dce55cbbcfd910aa3338628910c1e17c728b"
+      "checksum": "e237538880db7dc19bbd82342d562941999a68b29693cc57b99aca5f5b33217a"
     }
   },
   "revision": 0,
@@ -56,7 +56,7 @@
   ],
   "linked_keg": "0.2.1",
   "pinned": false,
-  "outdated": false,
+  "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -78,6 +78,6 @@
   "tap_git_head": null,
   "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "b4fe44355c18d502ea7d669dfe12e251589695af9683d557ba910cddc4e7f283"
+    "sha256": "341aa1028d5c410286f5e57baa1ffda97f351d5bd8efe0e532276656d4471e29"
   }
 }
