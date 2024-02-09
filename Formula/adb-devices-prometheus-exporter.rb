@@ -9,8 +9,8 @@ class AdbDevicesPrometheusExporter < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/WindSekirun/adb-devices-prometheus-exporter/releases/download/v0.2.0/adb-devices-prometheus-exporter-Darwin-x86_64.tar.gz"
-      sha256 "cfccde82f846759d69e736d9a95f9bdf292e39d4f20cdaa27e7e49b531df18e6"
+      url "https://github.com/WindSekirun/adb-devices-prometheus-exporter/releases/download/v0.2.3/adb-devices-prometheus-exporter-Darwin-x86_64.tar.gz"
+      sha256 "990869230201d6b8ebf485136ce4bbf4bc54adb7fb623be7de62e09201c6f150"
 
       def install
         bin.install "adb-devices-prometheus-exporter"
